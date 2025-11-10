@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" fetch="ssh://git@github.com/amrzar/" />
+    <default remote="github" revision="master" sync-j="4" />
+
+    <project name="xino" path="xino" />
+    <project name="xino-tools" path="xino/tools" />
+</manifest>
